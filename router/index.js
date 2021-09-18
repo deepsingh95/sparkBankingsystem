@@ -5,7 +5,7 @@ const historyModel = require('../model/histoyModel');
 
 
 router.get('/', (req,res)=> {
-res.sendFile("index.html")
+    res.render('home')
 });
 
 //  ADD USER
